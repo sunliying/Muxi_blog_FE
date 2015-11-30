@@ -1,0 +1,12 @@
+@import "../components/commen.scss";
+@import "../components/register.scss";
+@import "../components/side_line.scss";
+@import "../components/index/blog.scss";
+@import "../components/index/right_line.scss";
+body{
+	background-color: $body_back_gray;
+}
+.box{
+	width: 1200px;
+	margin: 0px auto;
+}

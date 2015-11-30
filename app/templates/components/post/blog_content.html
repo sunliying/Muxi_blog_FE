@@ -1,0 +1,18 @@
+<div class="blog_content">
+	<div class="describe">
+		<img class="photo" src="{{ blog.img_url }}" alt="photo">
+		<h2 class="title">
+			{{ blog.title }}
+		</h2>
+		<p><span class="name">{{ blog.name }}</span><span>{{ blog.time }}</span><img class="like" src="../../../static/img/like_base.png" alt=""></p>
+		
+	</div>
+	<div class="content">
+		{{ blog.content }}
+	</div>
+	<div class="tag">
+		{% for tag in blog.tag_list %}
+			<span>{{ tag.value }}</span>
+		{% endfor %}
+	</div>
+</div>
