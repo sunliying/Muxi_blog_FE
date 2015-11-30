@@ -9,7 +9,7 @@
     "watch:css":"watch 'npm run build:css' scss/*",
     "build":"npm run build:css",
     "watch":"npm run watch:css && npm run livereload",
-    "livereload":"live-reload --port 9091 ./"
+    "livereload":"live-reload --port 5050 ./"
   },
   "author": "",
   "license": "ISC",
