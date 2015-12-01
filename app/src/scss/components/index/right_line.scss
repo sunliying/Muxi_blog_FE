@@ -1,10 +1,10 @@
 .right_box_top, .right_box_bottom{
 	float: right;
-	width:200px;
+	width:185px;
 	overflow: hidden;
 	background: $white;
 	    padding: 15px;
-	    margin-right: 70px;
+	    
 	img{
 		float: left;
 		margin-right: 8px; 
@@ -21,7 +21,7 @@
 	}
 }
 .right_box_top{
-	margin-top: 100px;
+	
 	span{
 		font-size: 12px;
 		display: inline-block;

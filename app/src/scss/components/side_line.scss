@@ -1,7 +1,8 @@
 .left_box{
 	width: 200px;
-	float: left;
-	margin-right: 20px;
+	position: absolute;
+    left: 0px;
+    top: 0px;
 	background: $white;
 	.logo{
 		margin: 15px 44px;

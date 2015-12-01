@@ -1,10 +1,10 @@
 .register {
     height: 30px;
-    width: 120px;
     font-size: 14px;
     position: absolute;
-    top: 0;
-    right: 52px;
+    right: 0px;
+    top: 0px;
+
 }
 
 .register button {
@@ -30,7 +30,7 @@
 .top {
     position: fixed;
     bottom: 20px;
-    right: 70px;
+    right: 40px;
     height: 56px;
     width: 56px;
     background: $span_back_gray;

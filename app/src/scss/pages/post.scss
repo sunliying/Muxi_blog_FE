@@ -5,15 +5,14 @@
 @import "../components/post/comment.scss";
 body{
 	background-color: $body_back_gray;
+	min-width: 1200px;
 }
-.box{
-	width: 1200px;
-	margin: 0px auto;
+.right_blog{
+	margin-left:200px;
 }
 .post_conte{
 	width: 605px;
-    margin: 100px 30px;
+    margin: 100px auto;
     padding: 25px 76px 90px 119px;
-    float: left;
     background-color: #fff;
 }

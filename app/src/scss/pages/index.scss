@@ -5,8 +5,10 @@
 @import "../components/index/right_line.scss";
 body{
 	background-color: $body_back_gray;
+	min-width: 1200px;
 }
-.box{
-	width: 1200px;
-	margin: 0px auto;
+.right_content{
+	margin: 100px auto;
+padding-left: 200px;
+width: 860px;
 }
