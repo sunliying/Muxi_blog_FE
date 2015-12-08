@@ -48,18 +48,23 @@
     position: relative;
     color: #545866; }
   .left_box .home_img {
-    top: 6px;
-    left: 0px; }
-  .left_box .blog_img {
-    top: 23px;
-    left: 10px; }
-  .left_box .about_img {
     top: 9px;
-    left: 2px; }
-  .left_box p img {
+    left: 7px;
+    width: 39px; }
+  .left_box .blog_img {
+    top: 10px;
+    left: 6px;
+    width: 41px; }
+  .left_box .about_img {
+    top: 19px;
+    left: 11px;
+    width: 31px;
+    height: 31px; }
+  .left_box p svg {
     float: left;
-    position: absolute; }
-  .left_box p a {
+    position: absolute;
+    fill: currentColor; }
+  .left_box p .tag {
     display: inline-block;
     line-height: 70px;
     color: inherit;
@@ -68,7 +73,12 @@
     background: #69cad3;
     color: #fff; }
   .left_box .search {
-    margin: 100px 75px; }
+    margin: 100px 70px;
+    height: 40px;
+    width: 40px;
+    fill: #999; }
+  .left_box .search:hover {
+    fill: #272727; }
 
 .blog_content {
   margin-bottom: 50px; }
@@ -79,7 +89,8 @@
     left: -80px;
     width: 58px;
     height: 58px;
-    top: 5px; }
+    top: 5px;
+    cursor: pointer; }
   .blog_content .describe .title {
     line-height: 34px;
     font-size: 24px;
@@ -94,9 +105,16 @@
     margin-right: 30px; }
   .blog_content .like {
     float: right;
-    margin-top: -8px;
+    fill: #aaa;
+    margin-top: 9px;
     display: inline-block;
-    color: #626262; }
+    color: #626262;
+    height: 23px;
+    width: 23px;
+    cursor: pointer; }
+  .blog_content .like:hover,
+  .blog_content .like:active {
+    fill: #f29a76; }
   .blog_content .content {
     text-indent: 2em;
     font-size: 14px;
@@ -121,7 +139,7 @@
   .comment .each_comment p {
     padding-right: 90px;
     line-height: 20px; }
-.comment input {
+.comment input, .comment .textarea {
   color: #d2d2d2;
   line-height: 28px;
   display: block;
@@ -129,9 +147,6 @@
   border-radius: 2px; }
 .comment .text {
   width: 190px; }
-.comment .textarea {
-  height: 90px;
-  width: 390px; }
 .comment .text, .comment .textarea {
   box-shadow: 0 0 1px #d2d2d2;
   border: solid 1px #d2d2d2; }

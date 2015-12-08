@@ -17,7 +17,7 @@
 			line-height: 20px;
 		}
 	}
-	input{
+	input , .textarea{
 		
 		color: $input;
 		line-height: 28px;
@@ -28,13 +28,8 @@
 	.text{
 		width: 190px;
 	}
-	.textarea{
-		height: 90px;
-		width: 390px;
-	}
 	.text, .textarea{
 		box-shadow: 0 0 1px $input;
-		
 		border: solid 1px $input;
 		
 	} 

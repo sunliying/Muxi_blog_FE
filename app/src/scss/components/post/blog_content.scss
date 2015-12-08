@@ -1,5 +1,5 @@
 .blog_content {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
     .describe {
         position: relative;
     }
@@ -9,6 +9,7 @@
         width: 58px;
         height: 58px;
         top: 5px;
+        cursor: pointer;
     }
     .describe .title {
         line-height: 34px;
@@ -27,22 +28,30 @@
     }
     .like {
         float: right;
-        margin-top: -8px;
+        fill: #aaa;
+        margin-top: 9px;
         display: inline-block;
         color: $date_gray;
+        height: 23px;
+        width: 23px;
+         cursor: pointer;
     }
-    .content{
-    	text-indent: 2em;
-    	font-size: 14px;
-    	line-height: 28px;
-    	color: $date_gray;
-    	padding: 20px 36px 50px 0px;
+    .like:hover,
+    .like:active{
+        fill: $light_red;
     }
-    .tag{
-    	span{
-    		display: inline-block;
-    		margin-right: 10px;
-    		color:$deep_orange; 
-    	}
+    .content {
+        text-indent: 2em;
+        font-size: 14px;
+        line-height: 28px;
+        color: $date_gray;
+        padding: 20px 36px 50px 0px;
+    }
+    .tag {
+        span {
+            display: inline-block;
+            margin-right: 10px;
+            color: $deep_orange;
+        }
     }
 }
